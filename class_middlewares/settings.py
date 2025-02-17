@@ -50,9 +50,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     # 'blog.middlewares.MyMiddleware',
     # 'blog.middlewares.my_middleware',
-    'blog.middlewares.BrotherMiddleware',
-    'blog.middlewares.FatherMiddleware',
-    'blog.middlewares.MotherMiddleware',
+    # 'blog.middlewares.BrotherMiddleware',
+    # 'blog.middlewares.FatherMiddleware',
+    # 'blog.middlewares.MotherMiddleware',
+    # 'blog.middlewares.MyProcessMiddleware',
+    'blog.middlewares.MyExceptionMiddleware',
 
 
 ]
